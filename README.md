@@ -16,6 +16,8 @@ In one terminal run the ryu controller using the follwing command
 
   ```ryu-manager hub.py```
   
+  ![Screenshot](hub.png)
+  
 In another terminal run the mininet
   
   ```sudo mn --controller=remote,ip=127.0.0.1 --mac --topo=single,4```
