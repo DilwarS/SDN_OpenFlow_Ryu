@@ -1,4 +1,4 @@
-# SDN_OpenFlow_Ryu
+
 
 
 # OpenFlow Switching Applications
@@ -7,7 +7,7 @@
 
 # hub.py
 
-When a data frame arrives at a port in hub, it is simply broadcast to every other port, without considering whether it is destined for a particular destination or not. hub.py is simply braodcast the packets out of every port without sending the packets to the controller.
+When a data frame arrives at a port in hub, it is simply broadcast to every other port, without considering whether it is destined for a particular destination or not. ```hub.py``` is simply braodcast the packets out of every port without sending the packets to the controller.
 
 
 how to run the hup.py application
