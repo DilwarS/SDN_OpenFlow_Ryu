@@ -28,7 +28,12 @@ In mininet terminal if you do a ```pingall``` you won't see any flow installed b
 
 Now on ```mininet>``` CLI type ```xterm h1``` which will open ```h1``` terminal and type ```tcpdump -i any``` to capture the packet.
 
+
+  ![Screenshot](h1 tcpdump.png)
+
 Now on ```mininet>``` type ```h2 ping h3``` , h2 will ping h3 but as the OpenFlow switch acting as a hub it will broadast all the packet out of every ports which will be seen by host h1 as well.
+
+  ![Screenshot](h2pingh3.png)
 
 
   
